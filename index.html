@@ -76,7 +76,10 @@ together.setMinutes(0);
 together.setSeconds(0);
 together.setMilliseconds(0);
 var current=new Date();
-document.getElementById('currentDate').innerHTML=current;
+var year = current.getFullYear();
+var month = current.getMonth() + 1 > 10 ? current.getMonth() + 1 : '0' + current.getMonth();
+var date = current.getDate() > 10 ? current.getDate() : '0' + current.getDate();
+document.getElementById('currentDate').innerHTML = year + "-" + month + "-" + date;
 if (!document.createElement('canvas').getContext) {
 	var msg = document.createElement("div");
 	msg.id = "errorMsg";
