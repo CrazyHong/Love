@@ -33,22 +33,29 @@
 			打动我的是你爱笑的眼睛<br />
 			还有你俏皮但不失优雅的气质<br />
 			慢慢的<br />
-			<span class="comments">// AS time goes on.</span><br />
+			我觉得我喜欢的<br />
+			不是你可爱的外表<br />
+			更多的是你纯真的内心和最真实的你<br />
 			我知道遇见你不容易<br />
-			坚持下去会很难.</span><br />
-			但我还知道错过你<br />
-			会让我留下遗憾和可惜</span><br />
-			<span class="comments">// Whether on foot or 5 kilometers.</span><br />
-			<span class="keyword">The boy</span> very <span class="keyword">happy</span>;<br />
-			<span class="keyword">The girl</span> is also very <span class="keyword">happy</span>;<br />
-			<span class="placeholder"/><span class="comments">// Whether it is right now</span><br />
-			<span class="placeholder"/><span class="comments">// Still in the distant future.</span><br />
-			<span class="placeholder"/>The boy has but one dream;<br />
-			<span class="comments">// The boy wants the girl could well have been happy.</span><br />
-			<br>
-			<br>
+			坚持下去会很难.<br />
+			但我也知道，错过你<br />
+			会让我留下遗憾和可惜<br />
+			你为我拒绝了所有人的青睐<br />
+			只为等我一个不确定的未来<br />
+			或许我不是你最好的选择<br />
+			但我会把最好的我给最爱的你<br />
+			我不是一个那么浪漫的人<br />
+			更不懂什么甜言蜜语<br />
+			不知道你是否嫌弃<br />
+			让我做那个一直陪伴你的人<br />
+			保护你<br />
+			照顾你<br />
 			我想对你说<br />
 			我真的很爱你...<br />
+			<span class="comments">/**</span><br />
+			<span class="space"/><span class="comments">你和我的故事,</span><br />
+			<span class="space"/><span class="comments">未完待续。。。.</span><br />
+			<span class="space"/><span class="comments">**/</span><br />
 		</div>
 		<div id="loveHeart">
 			<canvas id="garden"></canvas>
@@ -79,7 +86,7 @@ var current=new Date();
 var year = current.getFullYear();
 var month = current.getMonth() + 1 > 10 ? current.getMonth() + 1 : '0' + (current.getMonth() + 1);
 var date = current.getDate() > 10 ? current.getDate() : '0' + current.getDate();
-document.getElementById('currentDate').innerHTML = year + "-" + month + "-" + date;
+document.getElementById('currentDate').innerHTML = "Now " + year + "-" + month + "-" + date;
 if (!document.createElement('canvas').getContext) {
 	var msg = document.createElement("div");
 	msg.id = "errorMsg";
